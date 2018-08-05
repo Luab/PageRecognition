@@ -1,0 +1,73 @@
+{
+  "extensionName": {
+    "message": "Bildschirmfoto speichern",
+    "description": "Name of the extension."
+  },
+
+  "extensionDescription": {
+    "message": "Speichert die aktuell angzeigte Seite als Bilddatei.",
+    "description": "Description of the extension."
+  },
+
+  "errorTitleFailedSending": {
+    "message": "Bildschirmfoto fehlgeschlagen!",
+    "description": "Title of error notification."
+  },
+  "errorTextFailedSending": {
+    "message": "Es ist nicht möglich von dieser Seite ein Bildschirmfoto zu erstellen!",
+    "description": "Text of error notification."
+  },
+
+  "region_full_label": {
+    "message": "Ganze Seite",
+    "description": "Used in the options page and for creating the menus"
+  },
+  "region_viewport_label": {
+    "message": "Anzeigebereich",
+    "description": "Used in the options page and for creating the menus"
+  },
+
+  "general_headline": {
+    "message": "Allgemeine Einstellungen",
+    "description": "Headline for the general settings in option page"
+  },
+  "show_contextmenu_label": {
+    "message": "Eintrag zum Seiten-Kontextmenü hinzufügen",
+    "description": "Used in the options page for the context menu checkbox"
+  },
+
+  "imageformat_headline": {
+    "message": "Bildformat",
+    "description": "Headline for image format options in option page"
+  },
+  "region_headline": {
+    "message": "Bildschirmfoto-Bereich",
+    "description": "Headline for screenshot region options in option page"
+  },
+  "select_manually_label": {
+    "message": "Für jedes Bildschirmfoto manuell wählen",
+    "description": "Used in the options page for both manual select options"
+  },
+
+  "format_copy_label": {
+    "message": "Kopieren",
+    "description": "Used in options page and menus for copying to clipboard"
+  },
+
+  "savemethod_headline": {
+    "message": "Speichermethode",
+    "description": "Headline for save method options in option page"
+  },
+  "savemethod_open_label": {
+    "message": "Anbieten, die Bilddatei direkt zu öffnen",
+    "description": "Used in option page for open dialog option"
+  },
+  "savemethod_saveas_label": {
+    "message": "Dialog \"Speichern unter\" anzeigen",
+    "description": "Used in option page for save as dialog option"
+  },
+  "savemethod_save_label": {
+    "message": "Ohne Rückfrage direkt ins \"Downloads\"-Verzeichnis speicheren",
+    "description": "Used in option page for direct download option"
+  }
+}
